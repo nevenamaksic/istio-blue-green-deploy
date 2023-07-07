@@ -4,7 +4,7 @@ metadata:
   name: bookinfo
 spec:
   hosts:
-    - bookinfo.local
+    - bookinfo.com
   gateways:
     - bookinfo-gateway
   http:
@@ -21,7 +21,7 @@ metadata:
   name: bookinfo-test
 spec:
   hosts:
-    - test.bookinfo.local
+    - test.bookinfo.com
   gateways:
     - bookinfo-gateway
   http:
